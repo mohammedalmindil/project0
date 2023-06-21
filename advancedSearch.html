@@ -6,14 +6,23 @@
         <title>Search</title>
     </head>
     <body id="body">
-       <div>
-        <a href="imageSearch.html" class="icons">Image Search</a>
-        <a href="index.html" class="icons">Google Search</a>
-       </div>
-        <div class="bigc">
-        <p id="front">Google</p>
+        <div class="icons">
+            <ul>
+             <li> <a href="imageSearch.html" >Image Search</a></li>
+             <li> <a href="index.html" >Google Search</a></li>
+            </ul>
+           </div>
+        <div class="biga">
+        <p id="fronta">Google Advanced</p>
         <form action="https://google.com/search">
-            <input type="text" name="q" id="inputS"><br>
+            <label>All these words</label>
+            <input type="text" name="as_q" id="inputA"><br>
+            <label>This exact word or phrase</label>
+            <input type="text" name="as_epq" id="inputA"><br>
+            <label >Any of these words</label>
+            <input type="text" name="as_oq" id="inputA"><br>
+            <label >None of these words</label>
+            <input type="text" name="as_eq" id="inputA"><br>
             <input type="submit" value="Google Search" class="button">
             <button class="button">I’m Feeling Lucky</button>
 
